@@ -1,0 +1,72 @@
+.js .anime {
+	opacity: 0;
+	transform: translate3D(-400%, 0px, 0px);
+}
+
+.js .anime-init {
+	opacity: 1;
+	transform: translate3D(0px, 0px, 0px);
+	transition: .3s all ease;
+}
+
+.box {
+	width: 88%;
+	height: 20%;
+	border-radius: 5px;
+	margin: 0 auto 20px auto;
+}
+
+#azul {
+	background: #05ACED;
+}
+
+#verde {
+	background: #8BC84C;
+}
+
+#roxo {
+	background: #8844EE;
+}
+
+section {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#mouse {
+	display: block;
+	width: 22px;
+	height: 40px;
+	border-radius: 20px;
+	border: 4px solid #8844EE;
+	text-align: center;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 20px;
+	margin: 0 auto;
+}
+
+#mouse::before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 8px;
+	position: relative;
+	border-radius: 4px;
+	background: #8844EE;
+	animation-name: mouse;
+  animation-duration: .7s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes mouse {
+	from {
+		top: 0px;
+	}
+  to {
+		top: 6px;
+	}
+}

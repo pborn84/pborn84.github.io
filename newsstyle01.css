@@ -1,0 +1,382 @@
+* {margin: 0 auto; padding: 0 auto; list-style: none;}
+body{width: 100%; margin: 0 auto; font-family: tahoma; font-size: 50px, font-weight: 600; letter-spacing: 1px; color: #000; clear: fixed; overflow-x: hidden}
+
+@font-face
+{font-family: 'slick'; font-weight: normal; font-style: normal; src: url('../fonts/slick.eot'); src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../fonts/slick.svg#slick') format('svg');}
+
+
+/*PORTRAIT - MOBILE(Iphone 320x468) RESOLUÇÃO PORTRAIT - 300px a 900px */
+@media only screen and (max-width: 900px) {
+	
+* {box-sizing: border-box;}
+body{width: 100%; margin: 0 auto;}
+
+header{width: 100%; margin: 0 auto; display: block;}
+.logo{width: 76%; margin: 0 auto; display: block; overflow: hidden;}
+div img.m-back{width: 180%; height: auto; margin: 70px -40%; position: absolute; display: none; z-index: -1000; overflow: hidden;}
+header.cabecalho{width: 100%; height: auto; margin: 0 auto -50%; display: block; overflow: hidden;}
+.placa{width: 45%; display: block; position: absolute;margin: -30% 30%;z-index: -27;/*! padding: -38%; */}
+
+section p{width: 60%; margin: 0 auto; font-family: arial; font-size: .8em; font-weight: 600;}
+header nav label{width: 72%; margin: -20% 3%; font-size: 1.5em; font-weight: 600; color: #0c0c0c; cursor: pointer; float: left; display: block; z-index: 3; position: relative; clear: both; overflow: hidden;}
+
+#toogle{display:none;}
+header nav label ul{margin: 0 auto; overflow: hidden;}
+.menu{width: 110%; margin: 0 10% -76px -15%; display: none; position: relative; clear: both; opacity: 0.5; transition: all .4s linear; text-align: center; background-color: #e4e4e4; overflow: hidden;}
+.menu li a{width: 100%; font-size: 0.92em; font-weight: 600; cursor: pointer; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both; overflow: hidden;}
+.menu a:link{width: 100%; font-size: 1.2em; font-weight: 600; cursor: pointer; text-decoration: none; color: #fff; text-align: center; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both; overflow: hidden;}
+.menu a:hover{width: 100%; margin: 0 auto; font-size: 1.2em; font-weight: 600; cursor: pointer; text-decoration: none; color: #fff; text-align: center; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both;}
+.menu a:visited{text-decoration: none; display: none; }
+#toogle:checked + .menu{display: block;}
+.menu a:link, a:visited {font-weight: 600; cursor: pointer; text-decoration: none; color: #000;}
+.menu a:hover {font-weight: 600; text-decoration: none; color: #fff; background-color: #162335;}
+
+.slider {width: 74%; margin: 100px auto;}
+.slick-slide {margin: 0px 6px;}
+.slick-slide img {width: 80%;}
+.slick-prev:before, .slick-next:before {color: black;}
+.slick-slide {transition: all ease-in-out .3s; opacity: .2;}
+.slick-active {opacity: .5;}
+.slick-current {opacity: 1;}
+
+.slide{width: 100%; background-color: #222222;}
+
+article{width: 100%; margin: 0 auto; overflow: hidden;}
+article.item-servicos{width: 100%; height: auto; margin: 0 auto; padding-top: 24%; padding-bottom: 30%; /*! clear: inline-end; */ overflow: hidden; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/background-plumb.jpg");background-size: 280px;background-position: 6px 5px;}
+article.item-servicos h2.txt-item{width: 100%; margin: -23% auto; font-size: 2.3em; font-weight: 600; /*! border-bottom: 1px solid #ccc; */ text-align: center; color: #fff; text-transform: uppercase; /*! padding-top: -15%; */clear: both;position: relative; overflow: hidden;}
+article.item-servicos h3.sub-txt-item01{width: 90%; margin: 30% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item02{width: 90%; margin: 30% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item03{width: 90%; margin: 30% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item04{width: 90%; margin: 30% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item05{width: 90%; margin: 30% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+
+header img.logo{width: 49%; margin: 0 auto; display: block;padding-top: 2%;/*! padding-bottom: 30%; */}
+header video{width: 110%; top: 26%; left: -24px; position: absolute; display: block; z-index: -100000;}
+
+article.intro {width: 100%; height: 320px; display: block; background: #00a686;}
+article.intro div.intro-img h2{font-size: 1.5em; font-family: "arial"; font-weight: 700; color: #fff; text-align: center;padding-top: 60px;/*! padding-bottom: 10%; */}
+article.intro div.intro-img p{font-size: 1em; font-family: "arial"; font-weight: 700; color: #fff; text-align: center;border: 3px solid #fff;margin: 8% 12%;padding: 5% 5px;width: 75%;border-radius: 10px;}
+
+.item{width:114%; height: 100%;  margin: 0 -10%; overflow: hidden; float: left; clear: both; clearfix}
+.item ul{list-style: none; position: absolute; display: block;/*! padding-bottom: 30%; */}
+.item ul li{width: 96%; height: 100%; float: left; position: relative; display: inline-block; transition: all .8s linear;/*! margin-bottom: 80%; */}
+.item a{/*! padding-bottom: 30%; */ display: inline-block; text-decoration: none; text-align: center; background-color: #f4f4f4; color: #fff;}
+.item ul ul{position: relative; visibility: hidden;/*! margin: 0 -2% 0 6%; */padding: 2% 4%; z-index: 100;}
+.item ul li:hover ul{visibility: visible; background-color: #222;/*! margin-bottom: 20%; */}
+.item a:hover{background-color: #222;}
+img.box-image{width: 30%; /*! display: block; */right: 5%;}
+.item ul ul li{width: 20%; height: 100%; margin: 3% 1% 0 1%; float: none; border: 1px solid #ccc; display: inline-flex;}
+
+img.item-img{width: 90%; display: block; padding: 40% 3%;}
+
+header img.logo{width: 75%; margin: 0 auto; display: block;padding-top: 30%;/*! padding-bottom: 30%; */}
+section.slideshow{width: 100% height: 600px; margin: 10% auto;}
+img.intro-img{width: 100%; margin: -28% auto; display: block;}
+.bg-video{width: 80%; margin: 90% auto; display: block;}
+
+/*SERVIÇOS*/
+article.local-box{width: 100%; margin: 0 auto;/*! padding-top: 1%; */ overflow: hidden;}
+article.local-box div h2.titulo-local{width: 100%; margin: 0 auto; font-family: 'Arial'; font-weight: 600; font-size: 2.3em;text-align: center;letter-spacing: 2px;font-weight: 600;padding: 5% 0 0 0;color: #fff;}
+article.local-box div ul.container-local{width: 100%;margin: 0 auto;/*! padding-top: 3%; */display: grid;/*! background: rgba(232, 236, 243, 0.48); */}
+article.local-box div ul.container-local li.box-origem{width: 100%;margin: 2% 2% 3% 4%;padding-top: 0%;display: block;border-radius: 8px;display: block;}
+article.local-box div ul.container-local li.box-left{width: 100%;margin: 0 auto;/*! padding-top: 0%; *//*! /*! display: block; */ */border-radius: 8px;display: block;/*! float: left; *//* padding: 6% 8%; */}
+article.local-box div ul.container-local li.box-left img.img-store{width: 68%; margin: -14% 0% -45% 13%;/*! padding-top: 0%; *//*! display: block; *//*! border-radius: 8px; *//*! display: block; *//*! padding-bottom: 27%; *//*! padding-right: 10%; *//*! z-index: -578; */}
+article.local-box div ul.container-local li.box-right{width: 100%; margin: 0 auto; font-size: 1.6em; font-weight: 500;/*! text-align: center; */color: #b1ada9; /*! letter-spacing: -2px; */overflow: hidden; padding-bottom: 2%; line-height: 30px; margin: -14% -9%; /*! height: 377px; */ padding-left: 10%;/*! top: 94px; *//*! float: left; *//*! display: block; */}
+article.local-box div ul.container-local li.box-right h3.sub-title{width: 100%;margin: 3% 30% 3% 18%;font-size: 1em;font-weight: 700;text-align: center;color: #fff; /*! letter-spacing: -2px; */overflow: hidden;padding: 2% 2% 2%;line-height: 30px;margin: 0 auto;background-color: #288ebd;float: left;}
+article.local-box div ul.container-local li.box-right p.text-loc{width: 146%;margin: 3% 30% 3% 18%;font-size: .45em;font-weight: 400;text-align: center;color: #fff; /*! letter-spacing: -2px; */overflow: hidden;padding-bottom: 14%;line-height: 1.2em;margin: 2% 0%;background-color: #232c3c;padding-left: 8%;padding-right: 54%;padding-top: 12%;}
+.contact{background-color: #222; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/background-vision.jpg"); background-position: 755px -16px; overflow: hidden;background-size: 982px;}
+
+/*VISÃO*/
+article.vision {width: 100%; height: auto; margin: 0 auto; /*! padding-top: 3%; */ /*! padding-bottom: 3%; */ background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/background-vision.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+article.vision{width: 100%; height: auto; overflow-x: hidden;}
+article.vision h2{width: 100%; height: auto; font-family: 'Arial'; font-weight: 700; font-size: 2em; text-align: center;letter-spacing: 2px;font-weight: 600;padding: 2%;color: #acbfdb;}
+article.vision div{width: 100%; /*! display: flex; *//*! overflow: hidden; */}
+article.vision section.dir{width: 100%; display: block; margin: 0 10px;}
+article.vision section.esq{width: 100%; display: block; margin: 5% auto 0; background-color: rgba(0,0,0,0.4);height: 140px;}
+article.vision h3 {width: 88%; margin: 1% auto; padding-top: 1%; font-size: 1.2em; color: #fff; letter-spacing: 1px; border-bottom: 1px #818181 solid; overflow: hidden; color:#fff;text-align: left;}
+article.vision ul.dados li {width: 117%; margin: 3% auto; /*! padding-top: 1%; */ font-size: 1em; color: #fff; letter-spacing: 1px; overflow: hidden; color:#fff; text-align: left;}
+
+/*ENDEREÇO*/
+article.address {width: 100%; height: 100%; padding-bottom: 5%; overflow: hidden; background-color: #333;}
+article.address h2 {font-size: 2.3em; text-align: center; letter-spacing: 2px; overflow: hidden; font-weight: 600; padding-bottom: 2%; border-bottom: 1px #ccc solid; overflow: hidden; color:#ef8310;}
+article.address h3 {width: 88%; margin: 3% auto; padding-top: 1%; font-size: 2.8em; letter-spacing: 3px; border-bottom: 1px #ccc solid; overflow: hidden; color:#fff;}
+article.address a.delivery {width: 100%; text-decoration: none;}
+article.address img.icon-whz {width: 23%;margin: -3% 25%; padding-left: 10%; color:#fff; padding-top: 10%;}
+article.address p.delivery-contato {width: 75%;margin: 6% 10%;font-size: 1.5em;color:#fff;}
+
+/*********************************INÍCIO NOVO lista de menus automatos*********************************/
+article.list-menu{width: 100%; margin: 0 auto; padding-left: 3%; overflow: hidden; float: left; display: block; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/background-plumb.jpg");background-size: 2052px; background-position: -2px -4px;}	
+article.list-menu h2.txt-menu{width: 82%; margin: 2% auto 3%; font-size: 3em; text-align: center; letter-spacing: 2px; font-weight: bold; color: #fff;}
+article.list-menu nav.lista ul{padding: 0;}
+article.list-menu nav.lista ul ul{display: none;}
+article.list-menu nav.lista ul li{width: 1200px; height: 100%; margin: 2%; margin-left: 2%; font-size: 25px; border-radius: 5px; float: left; display: inline-block; text-align: center; line-height: 50px; position: relative; transition: all .8s linear; transform: translateY(0);}
+article.list-menu nav.lista ul li.sub-lista{width: 276px; height: 100%; margin: 4% -8px; margin-left: 2%; font-size: 25px; border-radius: 5px; float: left; display: inline-block; text-align: center; line-height: 50px; position: relative; transition: all .8s linear; transform: translateY(0);}
+article.list-menu nav.lista ul li:hover > ul{display: block;}
+article.list-menu nav.lista ul li:hover{background-color: #222; transition: all .2s linear; transform: translateY(0); overflow: hidden;}
+article.list-menu nav.lista ul ul li li:hover{width: 276px; height: 136px; background-color: #d3b414; transition: all .5s linear; transform: translateY(0);}
+
+.button{
+    -webkit-filter:grayscale(100%);
+}
+.button:hover{
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}}
+
+article.list-menu nav.lista ul ul ul{margin-top: 7%; position: absolute;}
+article.list-menu nav.lista ul ul li:hover{width: 276px; height: 136px; background-color: #e0aa1f;}
+article.list-menu nav.lista a{width: 100%; font-family: 'Luckiest Guy', cursive; text-decoration: none; color: #000; display: block;}
+.img-list{width: 99%; border: 4px solid #ccc; border-radius: 5px;} 
+.img-menulist{width: 260px; margin: 1% 0%; border: 4px solid #ccc; border-radius: 5px;} 
+.txt-list{font-family: 'Luckiest Guy', cursive; font-size: 0.8em; font-weight: normal;}
+
+/*--------------------BOX-LHT-----------------------------*/
+h1 {font-size: 3em; font-weight: 200; margin: 0.5em 0 0.2em 0;}
+
+p {margin: 1.5em 0; color: #888;}
+
+.thumbnail {max-width: 40%;}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {/** Default lightbox to hidden */display: none;/** Position and style */position: fixed;z-index: 999;width: 100%;height: 100%;text-align: center; top: 0; left: 0; background: rgba(0,0,0,0.8);}
+
+.lightbox img {/** Pad the lightbox image */ max-width: 90%; max-height: 80%; margin-top: 2%;}
+.lightbox:target {/** Remove default browser outline */ outline: none; /** Unhide lightbox **/display: block;}
+
+/*********************************FIM NOVO lista de menus automatos*********************************/
+
+
+
+
+
+/*CONTACT*/
+.txt-vis {width: 82%; margin: 1% auto; padding-top: 1%; font-size: .65em; color: #fff; letter-spacing: 3px; overflow: hidden; color:#fff; text-align: left;}
+form {width: 100%; height: 100%; margin: 0 auto; background: #222; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/contato.jpg"); background-position: -352px -4px; background-repeat: no-repeat; overflow: hidden;}
+fieldset{width: 90%; height: 100%; margin: 0 auto; padding-top: 2%; border: none;overflow: hidden; padding-bottom: 2%;}
+form fieldset h2.txt-form{width: 74%; padding-top: 2px; padding-bottom: 30px; width: 100%; margin: 3% auto 2%; font-family: 'Arial'; font-weight: 600; font-size: 2em;text-align: center;letter-spacing: 2px; padding: 2%;color: #2d3656;text-align: center;letter-spacing: 2px;text-align: center;margin: 0 auto;}
+form fieldset input {width: 40%; height: 2px; margin: 0 -7% 0 8%; padding-top: 13px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; overflow: hidden; text-align: right;}
+form fieldset input.add-nome{font-size: .6em;text-align: left;background:#555;color: #fff;}
+form fieldset input.add-email{font-size: .6em;text-align: left;background:#555;color: #fff;}
+form fieldset textarea.text-area{width: 83%; height: 70px; margin: 10px 8%; padding-top: 8px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; font-size: .6em; text-align: left;background:#555;color: #fff;}
+input:focus {box-shadow: 2px 1px 10px #ccc;}
+textarea:focus {box-shadow: 1px 1px 10px #ccc;}
+button.add-button{margin: 2% 7%;width: 85%;padding-top: 10px;padding-bottom: 10px;font-size: 1em;text-align: center;color: #fff;letter-spacing: 3px;background: #2b53dd;border: 0;border-radius: 20px;-webkit-transition-duration: 0.4s; /* Safari */transition-duration: 0.4s;}
+button.add-button:hover{background-color: #2982ba; color: #d4d3cd; box-shadow: 1px 1px 3px #284a71;}
+
+
+
+
+
+
+/*Footer*/
+footer{width: 100%;/* height: 100%; */margin: 0 auto; padding-top: 2%; padding-bottom: 1%; line-height: 98%; text-align: center; background: #111; display: block; overflow-x: hidden;}
+footer ul{width: 80%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px;  font-size: 0.6em; text-align: center; color: #fff; }
+footer ul li{width: 88%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px; text-align: center; color: #fff;}
+footer ul li p{font-size: 1em; text-align: center; color: #fff;}
+
+a.topage{text-align: center; font-size: 2rem; text-decoration: none; color: #fff;}
+#myBtn{width: 30px;height: 30px;position: fixed;right: 17px;bottom: 120px;text-align: center;line-height: 25px;font-size: 2rem;text-decoration: none;/* background-color: #063c4a; */color: #ececec;border-radius: 10px;display: none;cursor: pointer;z-index: 99;border: solid #fff 2px;}   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------DESKTOP - RESOLUÇÃO - 901x a 1366px---------------------*/
+@media only screen and (min-width: 901px) and (max-width: 2000px) {	
+
+@font-face
+{font-family: 'slick'; font-weight: normal; font-style: normal; src: url('../fonts/slick.eot'); src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../fonts/slick.svg#slick') format('svg');}
+
+body{width: 100%; margin: 0 auto; overflow-x: hidden;}
+
+header{width: 100%; margin: 0 auto; display: block;}
+.logo{width: 76%; margin: 0 auto; display: block; z-index: -10;}
+div img.m-back{width: 90%; height: auto; margin: 6% 9%; position: absolute; display: none; z-index: -1000;}
+header.cabecalho{width: 100%; height: auto; margin: 0 auto 33%; display: block;}
+.placa{width: 13%; display: block; position: absolute;margin: -9% 2%;z-index: -27;/*! padding: -38%; */}
+section p{width: 60%; margin: 0 auto; font-family: arial; font-size: .8em; font-weight: 600;}
+header nav label{width: 72%; margin: -13% 3%; font-size: 0.92em; font-weight: 600; color: #0c0c0c; cursor: pointer; float: left; display: none; z-index: 3; position: relative; clear: both;}
+
+#toogle{display:none;}
+header nav label ul{margin: 0 auto;}
+.menu{width: 66%; margin: 2% 0% 10% 16%; display: inline-flex; position: relative; clear: both; opacity: 0.5; transition: all .4s linear; text-align: center; position: relative;}
+.menu li a{width: 100%; font-size: 0.92em; font-weight: 600; cursor: pointer; padding-top: 3%; padding-bottom: 3%; display: block; position: relative; clear: both;}
+.menu a:link{width: 100%; font-size: 0.92em; font-weight: 600; cursor: pointer; text-decoration: none; color: #fff; text-align: center; padding: 6% 0%; display: block; position: relative; clear: both;}
+.menu a:hover{width: 100%; /*! margin: 2% 10% 10% 4%; */ font-size: 0.92em; font-weight: 600; cursor: pointer; text-decoration: none; color: #fff; text-align: center; padding: 6% 0%; display: block; position: relative; clear: both;}
+.menu a:visited{font-size: 0.92em; font-weight: 600; text-decoration: none; display: none; }
+#toogle:checked + .menu{/*! display: block; */}
+.menu a:link, a:visited {font-size: 0.92em; font-weight: 600; cursor: pointer; text-decoration: none; color: #000; /*! background-color: #ccc; */ padding: 6% 0%;}
+.menu a:hover {font-size: 0.92em; /*! font-weight: 600; */ text-decoration: none; color: #004ea0; /*! background-color: #004ea0; */ padding: 6% 0%; border-bottom: 3px solid #004ea0;}
+
+.slider {width: 80%; margin: 100px auto;}
+.slick-slide {margin: 0px 20px;}
+.slick-slide img {width: 100%;}
+.slick-prev:before, .slick-next:before {color: black;}
+.slick-slide {transition: all ease-in-out .3s; opacity: .2;}
+.slick-active {opacity: .5;}
+.slick-current {opacity: 1;}
+
+.slide{width: 100%; background-color: #222222;}
+div .total-slide{width: 100%; height: 100%; background-color: #000; display: block;}
+
+article{width: 100%; margin: 0 auto; overflow: hidden;}
+article.item-servicos{width: 100%; height: auto; margin: 0 auto; padding-top: 9%; padding-bottom: 30%; /*! clear: inline-end; */ overflow: hidden; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/background-plumb.jpg");background-size: 2052px; background-position: -2px -4px;}
+article.item-servicos h2.txt-item{width: 100%; margin: -3% auto; font-size: 2.3em; font-weight: 600; /*! border-bottom: 1px solid #ccc; */ text-align: center; color: #fff; text-transform: uppercase; /*! padding-top: -15%; */clear: both;position: relative; overflow: hidden;}
+article.item-servicos h3.sub-txt-item01{width: 90%; margin: 5% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item02{width: 90%; margin: 5% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item03{width: 90%; margin: 5% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item04{width: 90%; margin: 5% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+article.item-servicos h3.sub-txt-item05{width: 90%; margin: 5% 6% 3% 3%; font-size: 1.2em; font-weight: 600; border-bottom: 1px solid #4e4b4b; color: #fff; text-transform: uppercase;display: block;/*! padding-bottom: 20%; */}
+
+header img.logo{width: 14%; margin: 0 auto; display: block;padding-top: 1%;/*! padding-bottom: 30%; */}
+header video{width: 70%; margin: 6% 15%; top: 30px; left: 0; position: absolute; display: block; z-index: -100000;}
+
+.item{width:100%; /*! height: auto; */ display: flex; overflow: hidden;}
+.item ul{list-style: none; position: relative;}
+.item ul li{width: 93%; float: left;}
+.item a{width: 100%;/*! padding: 0%; */ display: inline-block; text-decoration: none; text-align: center; background-color: #f4f4f4; color: #fff;}
+.item ul ul{position: relative; visibility: hidden;/*! margin: 0 -2% 0 6%; */padding: 2% 4%;z-index: 100;}
+.item ul li:hover ul{visibility: visible; background-color: rgba(0, 0, 0, 0.69);}
+.item a:hover{background-color: #222;}
+img.box-image{width: 12%; /*! display: block; */margin: 0% 25%;padding: 4px 3% 1px;}
+
+.item ul ul li{width: 28%; height: 100%; margin: 3% 2%; float: none; border: 1px solid #ccc; display: inline-flex;}
+
+img.item-img{width: 30px; display: block; padding: 10% 8%;}
+
+.area-display{width: 100%; background-color: #222; margin-top: 36%; height: 400px;}
+
+article.intro {width: 100%; height: 360px; display: block; background: #00a686;}
+article.intro div.intro-img h2{font-size: 3em; font-family: "arial"; font-weight: 700; color: #fff; text-align: center;padding-top: 60px;}
+article.intro div.intro-img p{font-size: 1.7em; font-family: "arial"; font-weight: 700; color: #fff; text-align: center;border: 3px solid #fff; margin: 3% 20%;padding: 5px 5px;width: 60%;border-radius: 10px;}
+.btn-txt{width: 100%; padding: 0 43% 1%;}
+
+
+/*Local*/
+article.local-box{width: 80%; margin: 5% auto 0; background-image: url("img/background-maps.jpg"); overflow: hidden;}
+article.local-box div h2.titulo-local{width: 100%; margin: 0 auto; font-family: 'Arial'; font-weight: 900; font-size: 3em;text-align: center;letter-spacing: 2px;font-weight: 600;padding: 5% 0 0 0;color: #00449a;}
+article.local-box div ul.container-local{width: 100%;margin: 0 auto;/*! padding-top: 3%; */display: grid;/*! background: rgba(232, 236, 243, 0.48); */}
+article.local-box div ul.container-local li.box-origem{width: 100%;margin: 2% 2% 3% 4%;padding-top: 0%;display: block;border-radius: 8px;display: block;}
+article.local-box div ul.container-local li.box-left{width: 100%;margin: 0 auto;/*! padding-top: 0%; *//*! /*! display: block; */ */border-radius: 8px;display: block;/*! float: left; *//* padding: 6% 8%; */}
+article.local-box div ul.container-local li.box-left img.img-store{width: 30%; margin: 0 0% -4% 3%;/*! padding-top: 0%; *//*! display: block; *//*! border-radius: 8px; *//*! display: block; *//*! padding-bottom: 27%; *//*! padding-right: 10%; *//*! z-index: -578; */}
+article.local-box div ul.container-local li.box-right{width: 70%; margin: 0 auto; font-size: 1.3em; font-weight: 500;/*! text-align: center; */color: #b1ada9; /*! letter-spacing: -2px; */overflow: hidden; padding-bottom: 2%; line-height: 30px; margin: -40% 33%; /*! height: 377px; */ padding-left: 2%;/*! top: 94px; *//*! float: left; *//*! display: block; */}
+article.local-box div ul.container-local li.box-right h3.sub-title{width: 82%; margin: 3% 30% 3% 18%;font-size: 2em;font-weight: 700;text-align: center;color: #fff; /*! letter-spacing: -2px; */overflow: hidden;padding: 2% 2% 2%;line-height: 30px;margin: 0 auto;background-color: #288ebd;float: left;}
+article.local-box div ul.container-local li.box-right p.text-loc{width: 76%; margin: 3% 30% 3% 18%;font-size: 1em;font-weight: 400;text-align: center;color: #fff; /*! letter-spacing: -2px; */overflow: hidden;padding-bottom: 14%;line-height: 1.2em;margin: 2% 0%;background-color: #232c3c;padding-left: 5%;padding-right: 5%;padding-top: 6%;}
+.contact{background-color: #222;overflow: hidden;}
+
+
+/*VISÃO*/
+article.vision {width: 100%; height: auto; margin: 0 auto; /*! padding-top: 3%; */ /*! padding-bottom: 3%; */ background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+article.vision{width: 100%; height: auto; overflow: hidden; background-color: rgba(14, 14, 10, 0.7); background-image: url("https://elitemidia.com/wp-content/uploads/2017/07/Background-3.jpg");background-position: 0 -220px;}
+article.vision h2{width: 50%; height: auto; font-family: 'Arial'; font-weight: 700; font-size: 2em; text-align: center;letter-spacing: 2px;font-weight: 600;padding: 2% 0 5%;color: #fff;}
+article.vision div{width: 100%; /*! display: flex; *//*! overflow: hidden; */}
+article.vision section.dir{width: 50%; margin: 0 49%; display: block;}
+article.vision section.esq{width: 50%; display: block; margin: -15% 0 8% -4px; padding-top: 2%; border-right: 1px dotted #8c8c8c; height: 290px;}
+article.vision h3 {width: 90%; margin: 1% auto; padding-top: 1%; padding-bottom: 2%; font-size: 1.2em; color: #fff; letter-spacing: 1px; border-bottom: 1px #818181 solid; overflow: hidden; color:#fff; text-align: center;}
+article.vision ul.dados li {width: 94%; margin: 1% auto; /*! padding-top: 1%; */ font-size: 1em; color: #fff; letter-spacing: 1px; overflow: hidden; color:#fff; text-align: left;}
+***
+
+/*ENDEREÇO*/
+article.address {width: 100%; height: 100%; padding-bottom: 5%; overflow: hidden; background-color: #333;}
+article.address h2 {font-size: 2.3em; text-align: center; letter-spacing: 2px; overflow: hidden; font-weight: 600; padding-bottom: 2%; border-bottom: 1px #ccc solid; overflow: hidden; color:#ef8310;}
+article.address h3 {width: 88%; margin: 3% auto; padding-top: 1%; font-size: 2.8em; letter-spacing: 3px; border-bottom: 1px #ccc solid; overflow: hidden; color:#fff;}
+article.address a.delivery {width: 100%; text-decoration: none;}
+article.address img.icon-whz {width: 23%;margin: -3% 25%; padding-left: 10%; color:#fff; padding-top: 10%;}
+article.address p.delivery-contato {width: 75%;margin: 6% 10%;font-size: 1.5em;color:#fff;}
+
+
+/*********************************INÍCIO NOVO lista de menus automatos*********************************/
+article.list-menu{width: 100%; margin: 0 auto; padding-left: 3%; overflow: hidden; float: left; display: block; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/background-plumb.jpg");background-size: 2052px; background-position: -2px -4px;}	
+article.list-menu h2.txt-menu{width: 82%; margin: 2% auto 3%; font-size: 3em; text-align: center; letter-spacing: 2px; font-weight: bold; color: #fff;}
+article.list-menu nav.lista ul{padding: 0;}
+article.list-menu nav.lista ul ul{display: none;}
+article.list-menu nav.lista ul li{width: 1200px; height: 100%; margin: 2%; margin-left: 2%; font-size: 25px; border-radius: 5px; float: left; display: inline-block; text-align: center; line-height: 50px; position: relative; transition: all .8s linear; transform: translateY(0);}
+article.list-menu nav.lista ul li.sub-lista{width: 276px; height: 100%; margin: 4% -8px; margin-left: 2%; font-size: 25px; border-radius: 5px; float: left; display: inline-block; text-align: center; line-height: 50px; position: relative; transition: all .8s linear; transform: translateY(0);}
+article.list-menu nav.lista ul li:hover > ul{display: block;}
+article.list-menu nav.lista ul li:hover{background-color: #222; transition: all .2s linear; transform: translateY(0); overflow: hidden;}
+article.list-menu nav.lista ul ul li li:hover{width: 276px; height: 136px; background-color: #d3b414; transition: all .5s linear; transform: translateY(0);}
+
+.button{
+    -webkit-filter:grayscale(100%);
+}
+.button:hover{
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}}
+
+article.list-menu nav.lista ul ul ul{margin-top: 7%; position: absolute;}
+article.list-menu nav.lista ul ul li:hover{width: 276px; height: 136px; background-color: #e0aa1f;}
+article.list-menu nav.lista a{width: 100%; font-family: 'Luckiest Guy', cursive; text-decoration: none; color: #000; display: block;}
+.img-list{width: 99%; border: 4px solid #ccc; border-radius: 5px;} 
+.img-menulist{width: 260px; margin: 1% 0%; border: 4px solid #ccc; border-radius: 5px;} 
+.txt-list{font-family: 'Luckiest Guy', cursive; font-size: 0.8em; font-weight: normal;}
+
+/*--------------------BOX-LHT-----------------------------*/
+h1 {font-size: 3em; font-weight: 200; margin: 0.5em 0 0.2em 0;}
+
+p {margin: 1.5em 0; color: #888;}
+
+.thumbnail {max-width: 40%;}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {/** Default lightbox to hidden */display: none;/** Position and style */position: fixed;z-index: 999;width: 100%;height: 100%;text-align: center; top: 0; left: 0; background: rgba(0,0,0,0.8);}
+
+.lightbox img {/** Pad the lightbox image */ max-width: 90%; max-height: 80%; margin-top: 2%;}
+.lightbox:target {/** Remove default browser outline */ outline: none; /** Unhide lightbox **/display: block;}
+
+/*********************************FIM NOVO lista de menus automatos*********************************/
+
+
+/*CONTACT*/
+.txt-vis {width: 82%; margin: 1% auto; padding-top: 1%; font-size: .7em; color: #fff; letter-spacing: 3px; overflow: hidden; color:#fff; text-align: left;}
+form {width: 100%; height: 100%; margin: 0 auto; background: #222; background-image: url("http://designerstormtrooper.esy.es/hospedeiros/nw/img/contato.jpg"); background-repeat: no-repeat; overflow: hidden;}
+fieldset{width: 30%; height: 100%; margin: 0 auto; padding-top: 2%; border: none;overflow: hidden; padding-bottom: 2%;}
+form fieldset h2.txt-form{width: 74%; padding-top: 2px; padding-bottom: 30px; width: 90%; margin: 3% auto 2%; font-family: 'Arial'; font-weight: 600; font-size: 2em;text-align: center;letter-spacing: 2px; padding: 2%;color: #606060;text-align: center;letter-spacing: 2px;text-align: center;margin: 0 auto;}
+form fieldset input {width: 40%; height: 2px; margin: 0 -7% 0 8%; padding-top: 13px; padding-bottom: 20px; border: 1px #939393 solid; border-radius: 3px; overflow: hidden; text-align: right;}
+form fieldset input.add-nome{font-size: .6em;text-align: left;background:#555;color: #fff;}
+form fieldset input.add-email{font-size: .6em;text-align: left;background:#555;color: #fff;}
+form fieldset textarea.text-area{width: 83%;height: 70px;margin: 10px 8%;padding-top: 8px;padding-bottom: 20px;border: 1px #939393 solid;border-radius: 3px;font-size: .6em;text-align: left;background:#555;color: #fff;}
+input:focus {box-shadow: 2px 1px 10px #ccc;}
+textarea:focus {box-shadow: 1px 1px 10px #ccc;}
+button.add-button{margin: 2% 7%;width: 85%;padding-top: 10px;padding-bottom: 10px;font-size: 1em;text-align: center;color: #fff;letter-spacing: 3px;background: #2b53dd;border: 0;border-radius: 20px;-webkit-transition-duration: 0.4s; /* Safari */transition-duration: 0.4s;}
+button.add-button:hover{background-color: #2982ba; color: #d4d3cd; box-shadow: 1px 1px 3px #284a71;}
+
+/*Footer*/
+footer{width: 100%;/* height: 100%; */margin: 0 auto; padding-top: 2%; padding-bottom: 1%; line-height: 50%; text-align: center; background: #111; display: block; overflow-x: hidden;}
+footer ul{width: 80%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px;  font-size: 0.6em; text-align: center; color: #fff; }
+footer ul li{width: 88%; height: 100%; margin: 0 auto; padding-top: 3px; padding-left: 5px; padding-bottom: 10px; text-align: center; color: #fff;}
+footer ul li p{font-size: 1em; text-align: center; color: #fff;}
+a.topage{text-align: center; font-size: 2rem; text-decoration: none; color: #fff;}
+#myBtn{width: 30px;height: 30px;position: fixed;right: 17px;bottom: 120px;text-align: center;line-height: 25px;font-size: 2rem;text-decoration: none;/* background-color: #063c4a; */color: #ececec;border-radius: 10px;display: none;cursor: pointer;z-index: 99;border: solid #fff 2px;}   
+
+}
+
+
+
+
+
+
