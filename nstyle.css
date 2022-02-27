@@ -32,12 +32,13 @@ a.link:hover{width: 12%; display: block; font-family: 'Open Sans Condensed', san
 .experiencia{width: 58%;margin: -335% -488%;display: block;position: absolute;z-index: 30;}
 .galeria{width: 58%;margin: -663% 300%;display: block;position: absolute;}
 .formacao{width: 58%;margin: -607% -310%;display: block;position: relative;padding: 5% 5%;}
-.skills{width: 58%;margin: 1057% 26%;display: block;position: absolute;padding: 5% 5%;}
-.contato{width: 58%;margin: 806% 360%;display: block;position: relative;padding: 5% 5%;}
+.skills{width: 58%;margin: -189% 26%;display: block;position: absolute;padding: 5% 5%;}
+.contato{width: 58%;margin: -555% 360%;display: block;position: relative;padding: 5% 5%;}
 div.wp{width: 4%; display: block; position: relative; margin:-12% 90%;}
-div a img.button-wp{width: 10%; /*! height: auto; */ margin: 0 auto; position: relative; z-index: 1000;top:-58px;left: 43%;display: block;}
-
+div a img.button-wp{width: 10%; /*! height: auto; */ margin: 0 auto; position: relative; z-index: 1000;top:-58px;left: 90%;display: block;} 
 /*intro*/
+
+
 .sobre{width: 90%;height: 1727px;margin: -10% auto -2%;display: block;background-color: #212529;padding: 10%;}
 h4.min-title{margin: 0 auto; font-family: 'Open Sans Condensed', sans-serif; font-weight: 30; font-size: 2rem; text-align: center; color: #f9c410;padding: 0 0%;}
 h6.su-title{margin: 0 auto; font-family: 'Open Sans Condensed', sans-serif; font-weight: 30; font-size: 1rem; text-align: center; color: #fff;padding: 36px 0% 1%;}
