@@ -28,10 +28,10 @@ a.link:link{width: 12%;margin: 0 auto;display: block;font-family: 'Open Sans Con
 a.link:hover{width: 12%; display: block; font-family: 'Open Sans Condensed', sans-serif; font-weight: 30; font-size: .98rem; color: #ccc; position: relative; text-decoration: none;}
 .objetivo{width: 58%; margin: 0% 0%; display: block; position: relative;}
 .experiencia{width: 58%; margin:0% 0%; display: block; position: relative;}
-.objetivo{width: 58%;margin: -138% 268%;display: block;position: absolute;}
+.objetivo{width: 58%;margin: -142% 209%;display: block;position: absolute;}
 .experiencia{width: 58%;margin: -335% -488%;display: block;position: absolute;z-index: 30;}
-.galeria{width: 58%;margin: -663% 300%;display: block;position: absolute;}
-.formacao{width: 58%;margin: -607% -310%;display: block;position: relative;padding: 5% 5%;}
+.galeria{width: 58%;margin: -590% 225%;display: block;position: absolute;}
+.formacao{width: 58%;margin: -912% -390%;display: block;position: relative;padding: 5% 5%;}
 .skills{width: 58%;margin: -189% 26%;display: block;position: absolute;padding: 5% 5%;}
 .contato{width: 58%;margin: -555% 360%;display: block;position: relative;padding: 5% 5%;}
 div.wp{width: 4%; display: block; position: relative; margin:-12% 90%;}
